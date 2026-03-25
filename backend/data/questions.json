@@ -1,0 +1,60 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "skill": "Python",
+            "question": "What is the difference between a list and a tuple in Python?",
+            "reference_answer": "Lists are mutable, meaning they can be modified after creation. Tuples are immutable and cannot be changed. Lists use square brackets while tuples use parentheses.",
+            "keywords": ["mutable", "immutable", "modified", "list", "tuple", "brackets", "parentheses"]
+        },
+        {
+            "id": 2,
+            "skill": "Python",
+            "question": "What are decorators in Python?",
+            "reference_answer": "Decorators are a tool for wrapping a function with another function to add or modify its behavior without changing the source code. They use the @ symbol.",
+            "keywords": ["wrapping", "function", "modify", "behavior", "source code", "@"]
+        },
+         {
+            "id": 3,
+            "skill": "React",
+            "question": "What is the Virtual DOM in React?",
+            "reference_answer": "The Virtual DOM is a lightweight copy of the actual DOM in memory. React uses it to efficiently update the UI by comparing state changes and only rendering the modified parts.",
+            "keywords": ["lightweight", "actual DOM", "memory", "state changes", "rendering", "efficient"]
+        },
+         {
+            "id": 4,
+            "skill": "React",
+            "question": "What are hooks in React?",
+            "reference_answer": "Hooks are functions that let you use state and other React features in functional components without writing a class. Examples include useState and useEffect.",
+            "keywords": ["functions", "state", "functional components", "useState", "useEffect"]
+        },
+         {
+            "id": 5,
+            "skill": "JavaScript",
+            "question": "Explain closures in JavaScript.",
+            "reference_answer": "A closure is a function that has access to the outer function scope even after the outer function has finished executing. It allows data encapsulation.",
+            "keywords": ["function", "outer", "scope", "executing", "encapsulation"]
+        },
+         {
+            "id": 6,
+            "skill": "SQL",
+            "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+            "reference_answer": "INNER JOIN returns only the records where there is a match in both tables. LEFT JOIN returns all records from the left table and matched records from the right table.",
+            "keywords": ["matching", "records", "left table", "right table", "INNER JOIN", "LEFT JOIN"]
+        },
+        {
+            "id": 7,
+            "skill": "Node.js",
+            "question": "What is the Event Loop in Node.js?",
+            "reference_answer": "The Event Loop allows Node.js to perform non-blocking I/O operations by offloading tasks to the system kernel whenever possible. It handles asynchronous callbacks.",
+            "keywords": ["event loop", "non-blocking", "I/O", "asynchronous", "callbacks", "kernel"]
+        },
+        {
+            "id": 8,
+            "skill": "FastAPI",
+            "question": "What are the benefits of using FastAPI?",
+            "reference_answer": "FastAPI is extremely fast, type-safe, and automatically generates interactive documentation using Swagger and ReDoc. It leverages asynchronous programming.",
+            "keywords": ["fast", "type-safe", "documentation", "Swagger", "asynchronous", "Python"]
+        }
+    ]
+}
